@@ -1,0 +1,102 @@
+/* Fuente de letras y color */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "roboto Condensed", sans-serif;
+    color: #1f1f1f;
+    background: #a8a8a7;
+
+}
+
+
+/*id */
+
+#contenedor {
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 10px;
+  overflow: hidden; 
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+
+
+}
+
+#calculadora {
+    background: white;
+    /* Con estas 3 lineas vamos a hacer que los divs queden a lado*/
+    width: 50%;
+    height: 100%;
+    float:left;
+
+}
+#texto{
+    background: #1b9e2c ;
+    color: white;
+    width: 50%;
+    height: 100%;
+    float:left
+
+}
+
+
+/*class*/
+.contenido {
+    /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+
+}
+
+
+/* Estilos de los elementos HTML */
+input{
+    width: 70%;
+    padding: 11px 15px;
+    border: 1px solid #FFFFFF
+    background-color: #f1f1f1f1;
+}
+/*revisar IMPUT*/
+
+
+button{
+    font-size: 15px;
+	font-weight: bold;
+    margin: 15px;
+	padding: 12px 40px;
+	border-radius: 30px;
+	background-color: #1b9e2c;
+	border: 1px solid #1b9e2c;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+}
+
+button:active{transform: scale(0.95)
+}
+
+
+#error{ 
+    color: rgb(153, 0, 0);
+    font-weight: bold;
+    display: none;
+}
+
+.resultado{
+    color: #0A81D1;
+    font-weight: bold;
+    font-size: 25px;
+    morgin-button:5px;
+    display: none;
+
+}
