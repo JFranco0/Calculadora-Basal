@@ -5,7 +5,8 @@
 body {
     font-family: "roboto Condensed", sans-serif;
     color: #1f1f1f;
-    background: #a8a8a7;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
 
 }
 
@@ -29,7 +30,7 @@ body {
 }
 
 #calculadora {
-    background: white;
+    background: #e1e1e1;
     /* Con estas 3 lineas vamos a hacer que los divs queden a lado*/
     width: 50%;
     height: 100%;
@@ -37,7 +38,7 @@ body {
 
 }
 #texto{
-    background: #1b9e2c ;
+    background: #64adab;
     color: white;
     width: 50%;
     height: 100%;
@@ -62,9 +63,10 @@ body {
 input{
     width: 70%;
     padding: 11px 15px;
-    border: 1px solid #FFFFFF
-    background-color: #f1f1f1f1;
+    border: 1px solid #acacac;
+    background-color: #ffffff;
 }
+
 /*revisar IMPUT*/
 
 
@@ -74,8 +76,8 @@ button{
     margin: 15px;
 	padding: 12px 40px;
 	border-radius: 30px;
-	background-color: #1b9e2c;
-	border: 1px solid #1b9e2c;
+	background-color: #64adab;
+	border: 1px solid #64adab;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -87,16 +89,16 @@ button:active{transform: scale(0.95)
 
 
 #error{ 
-    color: rgb(153, 0, 0);
+    color: rgb(231, 1, 1);
     font-weight: bold;
     display: none;
 }
 
 .resultado{
-    color: #0A81D1;
+    color: #3d6880;
     font-weight: bold;
     font-size: 25px;
-    morgin-button:5px;
+    margin-bottom: 5px;
     display: none;
 
 }
